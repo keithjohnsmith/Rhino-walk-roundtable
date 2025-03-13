@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Zoofari - Zoo & Safari Park Website Template</title>
+    <title>Rhino Walk Masvingo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/icon/rhino-side-profile.png" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,6 +38,13 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      input[type="text"], input[type="tel"], input[type="email"] {
+        width: 75%; /* Adjust the width as needed */
+      }
+    </style>
+
   </head>
 
   <body>
@@ -62,17 +69,17 @@
         <div class="col-lg-7 px-5 text-start">
           <div class="h-100 d-inline-flex align-items-center py-3 me-4">
             <small class="fa fa-map-marker-alt text-primary me-2"></small>
-            <small>123 Street, New York, USA</small>
+            <small>123 Street, Masvingo, Zimbabwe</small>
           </div>
           <div class="h-100 d-inline-flex align-items-center py-3">
             <small class="far fa-clock text-primary me-2"></small>
-            <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+            <small>Mon - Fri : 07.00 AM - 06.00 PM</small>
           </div>
         </div>
         <div class="col-lg-5 px-5 text-end">
           <div class="h-100 d-inline-flex align-items-center py-3 me-4">
             <small class="fa fa-phone-alt text-primary me-2"></small>
-            <small>+012 345 6789</small>
+            <small>+263 77 786 7897</small>
           </div>
           <div class="h-100 d-inline-flex align-items-center">
             <a class="btn btn-sm-square bg-white text-primary me-1" href=""
@@ -99,8 +106,8 @@
       data-wow-delay="0.1s"
     >
       <a href="index.html" class="navbar-brand p-0">
-        <img class="img-fluid me-3" src="img/icon/icon-10.png" alt="Icon" />
-        <h1 class="m-0 text-primary">Zoofari</h1>
+        <img class="img-fluid me-3" src="img/icon/rhino-side-profile.png" alt="Icon" />
+        <h1 class="m-0 text-primary">Rhino Walk</h1>
       </a>
       <button
         type="button"
@@ -113,29 +120,28 @@
       <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
         <div class="navbar-nav ms-auto">
           <a href="index.html" class="nav-item nav-link">Home</a>
-          <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="service.html" class="nav-item nav-link">Services</a>
-          <div class="nav-item dropdown">
+          <a href="about.html" class="nav-item nav-link">About Us</a>
+          <a href="service.html" class="nav-item nav-link">Rhino Facts</a>
+          <a href="membership.html" class="nav-item nav-link active">Register</a>
+          <!--<div class="nav-item dropdown">
             <a
               href="#"
-              class="nav-link dropdown-toggle active"
+              class="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
               >Pages</a
             >
             <div class="dropdown-menu rounded-0 rounded-bottom m-0">
               <a href="animal.html" class="dropdown-item">Our Animals</a>
-              <a href="membership.html" class="dropdown-item active"
-                >Membership</a
-              >
+              <a href="membership.html" class="dropdown-item">Membership</a>
               <a href="visiting.html" class="dropdown-item">Visiting Hours</a>
               <a href="testimonial.html" class="dropdown-item">Testimonial</a>
               <a href="404.html" class="dropdown-item">404 Page</a>
             </div>
-          </div>
+          </div>-->
           <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <a href="" class="btn btn-primary"
-          >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
+          >Donate Now<i class="fa fa-arrow-right ms-3"></i
         ></a>
       </div>
     </nav>
@@ -148,7 +154,7 @@
     >
       <div class="container py-5">
         <h1 class="display-4 text-white mb-3 animated slideInDown">
-          Membership
+          Registration
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
@@ -159,7 +165,7 @@
               <a class="text-white" href="#">Pages</a>
             </li>
             <li class="breadcrumb-item text-primary active" aria-current="page">
-              Membership
+              Registration
             </li>
           </ol>
         </nav>
@@ -168,80 +174,103 @@
     <!-- Page Header End -->
 
     <!-- Membership Start -->
-    <div class="container-xxl py-5">
+    <!--<div class="container-xxl py-5">
       <div class="container">
         <div
           class="row g-5 mb-5 align-items-end wow fadeInUp"
           data-wow-delay="0.1s"
         >
           <div class="col-lg-6">
-            <p><span class="text-primary me-2">#</span>Membership</p>
+            <p><span class="text-primary me-2">#</span>Registration</p>
             <h1 class="display-5 mb-0">
-              You Can Be A Proud Member Of
-              <span class="text-primary">Zoofari</span>
+              Protect their future, step by step. Register for the annual 
+              <span class="text-primary">rhino walk</span> today!
             </h1>
           </div>
-          <div class="col-lg-6 text-lg-end">
-            <a class="btn btn-primary py-3 px-5" href="">Special Pricing</a>
-          </div>
+          
         </div>
         <div class="row g-4">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="membership-item position-relative">
-              <img class="img-fluid" src="img/animal-lg-1.jpg" alt="" />
-              <h1 class="display-1">01</h1>
-              <h4 class="text-white mb-3">Popular</h4>
-              <h3 class="text-primary mb-4">$99.00</h3>
-              <p><i class="fa fa-check text-primary me-3"></i>10% discount</p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>2 adult and 2 child
-              </p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>Free animal
-                exhibition
-              </p>
-              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="membership-item position-relative" style="background-color: white;">
+              
+              
+              
+              
+             
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="membership-item position-relative">
-              <img class="img-fluid" src="img/animal-lg-2.jpg" alt="" />
-              <h1 class="display-1">02</h1>
-              <h4 class="text-white mb-3">Standard</h4>
-              <h3 class="text-primary mb-4">$149.00</h3>
-              <p><i class="fa fa-check text-primary me-3"></i>15% discount</p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>4 adult and 4 child
-              </p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>Free animal
-                exhibition
-              </p>
-              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+            <div class="membership-item position-relative" >
+              <img class="img-fluid" src="img/caro-3.jpg" alt="" />
+              <form action="/submit_contact.php" method="post">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+              
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+              
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+              
+                <input class="btn btn-primary py-3 px-5" type="submit" value="Register Now!">
+              
+              </form>
+              
+             
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="membership-item position-relative">
-              <img class="img-fluid" src="img/animal-lg-3.jpg" alt="" />
-              <h1 class="display-1">03</h1>
-              <h4 class="text-white mb-3">Premium</h4>
-              <h3 class="text-primary mb-4">$199.00</h3>
-              <p><i class="fa fa-check text-primary me-3"></i>20% discount</p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>6 adult and 6 child
-              </p>
-              <p>
-                <i class="fa fa-check text-primary me-3"></i>Free animal
-                exhibition
-              </p>
-              <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
+          <div class="col-lg-4 col-md-6 wow fadeInUp"  data-wow-delay="0.3s">
+            <div class="membership-item position-relative" style="background-color: white;">
+              
+             
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Membership End -->
+    </div>-->
 
+    <!-- About Start -->
+   <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p><span class="text-primary me-2">#</span>Register Now!</p>
+          <h1 class="display-5 mb-4">
+            Protect their future, step by step. Register for the annual 
+            <span class="text-primary">Rhino Walk</span> today!
+          </h1>
+          <div class="membership-item position-relative" >
+            <img class="img-fluid" src="img/caro-3.jpg" alt="" />
+            
+            <form action="/submit_contact.php" style="padding-left: 15%; align-content: center; justify-content: center;" method="post">
+      
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+            
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone" required><br><br>
+            
+              <label for="email">Email Address:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+            
+              <input class="btn btn-primary py-3 px-5" type="submit" value="Register Now!">
+            
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="img-border">
+            <img class="img-fluid" src="img/rebecca-johnsen-rs44syUQagI-unsplash.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+    
+    <!-- Membership End -->
+    
     <!-- Footer Start -->
     <div
       class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
